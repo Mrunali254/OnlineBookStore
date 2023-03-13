@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<meta charset="ISO-8859-1">
+<title>Book Store</title>
+<link rel="apple-touch-icon" sizes="180x180"
+	href="./favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32"
+	href="./favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16"
+	href="./favicons/favicon-16x16.png">
+<link rel="manifest" href="./favicons/site.webmanifest">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" >
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body onload="funload()">
+	<header>
+		<nav class="navbar navbar-expand-sm bg-dark">
+				<a class="navbar-brand">
+					<!-- The below line can be an image or a h1, either will work -->
+					<img src="logo.png" alt="Google logo" width="60" height="30px">
+				</a>
+				
+				<button style="background-color:white;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				 </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">                
+				<ul class="navbar-nav" >
+					<li class="nav-item"><span><a class="nav-link active" href="viewbook">Home</a></span></li>
+					<li class="nav-item "><span><a class="nav-link" href="viewbook">Available Books</a></span></li>
+					<li class="nav-item "><span><a class="nav-link" href="about.html">About Us</a></span></li>
+					<li class="nav-item "><span><a class="nav-link" href="contact.html">Contact Us</a></span></li>
+					<li class="nav-item "><span><a class="nav-link" href="index.html">Logout</a></span></li>
+				</ul>
+				</div>
+			</nav>
+	</header>
+	
+	<title>contact us</title>
+	<!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+
+
+</body>
+</html>
